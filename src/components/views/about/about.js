@@ -11,6 +11,8 @@ const About = () => {
       {aboutContent.map((card) => (
         <Card
           key={card.title}
+          header={card.header}
+          footer={card.footer}
           title={card.title}
           items={card.items}
           optional={card.optional}

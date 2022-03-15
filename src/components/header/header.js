@@ -4,6 +4,11 @@ import "./header.css";
 const Header = () => {
   return (
     <header>
+      <h1 className="title">
+        <a className="title__a" href="https://www.kswofmadisonheights.com/">
+          MADISON HEIGHTS KOREAN MARTIAL ARTS
+        </a>
+      </h1>
       <nav id="main-menu" className="nav">
         <ul className="navbar">
           <li className="nav-link">
