@@ -1,0 +1,13 @@
+.navbar {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-link {
+  padding: 1rem;
+  /* border: 1px rgb(95, 92, 92) solid; */
+}
+.nav-link:hover {
+  background-color: antiquewhite;
+}
