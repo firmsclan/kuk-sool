@@ -1,9 +1,10 @@
 import React from "react";
+import banner from "../../assets/kuk-sool-img.jpg";
 import "./header.css";
 
 const Header = () => {
   return (
-    <header>
+    <header className="header">
       <h1 className="title">
         <a className="title__a" href="https://www.kswofmadisonheights.com/">
           MADISON HEIGHTS KOREAN MARTIAL ARTS
@@ -70,6 +71,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+      <img src={banner} alt="banner" />
     </header>
   );
 };

@@ -3,7 +3,7 @@ import "./card.css";
 
 const Card = (props) => {
   return (
-    <section>
+    <section className="section-card">
       <h2>{props.title}</h2>
       {props.header && <p>{props.header}</p>}
       <ul>

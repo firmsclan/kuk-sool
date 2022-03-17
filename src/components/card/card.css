@@ -1,0 +1,13 @@
+.section-card {
+  background-color: black;
+  color: white;
+  text-align: left;
+  margin-left: 0;
+  padding: 10px 0px;
+  border: 6px solid blue;
+  box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 9px;
+  margin-bottom: 10px;
+  height: 12rem;
+  width: 48rem;
+}

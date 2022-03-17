@@ -1,0 +1,15 @@
+.add {
+  width: 30%;
+}
+.video {
+  width: 560px;
+  height: 560px;
+}
+
+.main-benifit {
+  font-size: 2rem;
+}
+
+.video-main {
+  display: inline-block;
+}

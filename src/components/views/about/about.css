@@ -1,0 +1,21 @@
+.cards-warpper > ul {
+  text-align: left;
+}
+.cards-wrapper {
+  display: flex;
+  /* justify-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column; */
+  flex-direction: column;
+}
+
+.intro {
+  text-align: left;
+  width: 50%;
+}
+.cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

@@ -6,18 +6,34 @@ import "./about.css";
 
 const About = () => {
   return (
-    <section>
+    <section className="cards-wrapper">
       <Introduction />
-      {aboutContent.map((card) => (
-        <Card
-          key={card.title}
-          header={card.header}
-          footer={card.footer}
-          title={card.title}
-          items={card.items}
-          optional={card.optional}
-        />
-      ))}
+      <div className="cards">
+        <div className="cards-left">
+          {aboutContent.slice(0, 5).map((card) => (
+            <Card
+              key={card.title}
+              header={card.header}
+              footer={card.footer}
+              title={card.title}
+              items={card.items}
+              optional={card.optional}
+            />
+          ))}
+        </div>
+        <div className="cards-right">
+          {aboutContent.slice(5, 10).map((card) => (
+            <Card
+              key={card.title}
+              header={card.header}
+              footer={card.footer}
+              title={card.title}
+              items={card.items}
+              optional={card.optional}
+            />
+          ))}
+        </div>
+      </div>
     </section>
   );
 };

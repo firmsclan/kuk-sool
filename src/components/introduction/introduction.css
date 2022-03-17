@@ -1,0 +1,30 @@
+.intro {
+  margin: 24px auto;
+  text-align: center;
+}
+
+.intro__title {
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: black;
+  color: white;
+  border: 6px solid blue;
+  border-radius: 9px;
+}
+
+.intro-sub__title {
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: 6px solid blue;
+  border-bottom: none;
+}
+
+.intro__content {
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: 6px solid blue;
+  border-top: none;
+  padding-top: 10px;
+}
