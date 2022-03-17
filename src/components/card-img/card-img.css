@@ -1,0 +1,10 @@
+.section-card-img__wrapper {
+  display: flex;
+  align-items: center;
+}
+.section-car-img {
+  width: 50%;
+}
+.section-car-img__desc {
+  width: 50%;
+}

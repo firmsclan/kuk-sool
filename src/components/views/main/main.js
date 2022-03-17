@@ -1,11 +1,10 @@
 import React from "react";
 import add from "../../../assets/kuk-sool-add.jpg";
 import ReactPlayer from "react-player";
-import meditation from "../../../assets/meditation.jpg";
-import classImg from "../../../assets/class.jpg";
-import medalImg from "../../../assets/medal.jpg";
 import teacher from "../../../assets/teacher.jpg";
 import "./main.css";
+import { mainContent } from "./main-content";
+import CardImg from "../../card-img/card-img";
 
 const Main = () => {
   return (
@@ -31,25 +30,14 @@ const Main = () => {
           <li>Perseverance</li>
         </ul>
       </div>
-      <img src={meditation} alt="meditation" />
-      <p>
-        Students also study healing techniques, development of internal power,
-        and achieving good health/physical fitness through tactics that have
-        been refined throughout Kuk Sool Won’s rich 5,000 year history. Our
-        unique curriculum flows well, making it seem anything but complex.
-      </p>
-      <img src={classImg} alt="class" />
-      <p>
-        All of this means that Kuk Sool Won™ is not limited to a particular
-        style of martial arts, but is a well-organized, systematic study of the
-        entire spectrum of Korean martial arts, dating from ancient times to the
-        present.
-      </p>
-      <img src={medalImg} alt="medal" />
-      <p>
-        Visiting this site is the first step on a long journey towards personal
-        development. There's something for all ages in Kuk Sool Won™.
-      </p>
+      {mainContent.cards.map((card) => (
+        <CardImg
+          key={card.alt}
+          img={card.img}
+          alt={card.alt}
+          description={card.description}
+        />
+      ))}
       <img src={teacher} alt="teacher" />
     </>
   );
