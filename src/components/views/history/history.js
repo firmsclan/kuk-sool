@@ -2,6 +2,7 @@ import React from "react";
 import ReactPlayer from "react-player";
 import pirate from "../../../assets/pirate.jpg";
 import CardImg from "../../card-img/card-img";
+import "./history.css";
 const History = () => {
   return (
     <>
@@ -13,6 +14,18 @@ const History = () => {
         img={pirate}
         alt={"pirate"}
       />
+
+      <ReactPlayer url="https://www.youtube.com/watch?v=fuf4q_ZFp98"></ReactPlayer>
+      <ReactPlayer url="https://www.youtube.com/watch?v=wz6VAluewo0"></ReactPlayer>
+      <h3>
+        <a
+          className="handbook"
+          href="https://www.kswofmadisonheights.com/wp-content/uploads/2022/02/WKSA-Student-Handbook.pdf"
+          target="_blank"
+        >
+          CLICK HERE TO VIEW OR DOWNLOAD WKSA OFFICIAL STUDENT HANDBOOK
+        </a>
+      </h3>
     </>
   );
 };
