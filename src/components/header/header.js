@@ -29,12 +29,9 @@ const Header = () => {
                 </NavLink>
               </li>
               <li className="nav-link">
-                <a
-                  href="https://www.kswofmadisonheights.com/faqs/"
-                  activeClassName="white"
-                >
+                <NavLink to="/history" activeClassName="white">
                   Korean Martial Arts History
-                </a>
+                </NavLink>
               </li>
               <li className="nav-link">
                 <a

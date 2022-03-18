@@ -1,10 +1,12 @@
-.section-card-img__wrapper {
+.section-card-img__warpper {
   display: flex;
   align-items: center;
+  flex-direction: row;
 }
-.section-car-img {
-  width: 50%;
+.section-card-img {
+  width: 540px;
+  height: 540px;
 }
-.section-car-img__desc {
+.section-card-img__desc {
   width: 50%;
 }
